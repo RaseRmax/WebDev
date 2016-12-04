@@ -127,4 +127,31 @@ Of course you also get our energising Japanese matcha tea blend.</details>
     <price>13.0</price>
     <soldOut>No</soldOut>
   </product>
+  <product>
+    <name>Whisk 100 tines</name>
+    <details>Kyo Hyakupontate. 100 tine bamboo whisk. Beautifully crafted utensil for whisking matcha in water.</details>
+    <price>25.0</price>
+    <soldOut>Yes</soldOut>
+  </product>  
+  <product>
+    <name>Luxury Whisk</name>
+    <details>Jo Kazumiho bamboo whisk for tea ceremony style tea preparation.
+This is a top class whisk for connoissseurs of matcha and Tea Ceremony.
+An outstanding piece of craftsmanship, this is a wonderful present for any matcha enthusiast.</details>
+    <price>30.0</price>
+    <soldOut>Yes</soldOut>
+  </product>
+  <product>
+    <name>Mini whisk 80 tines</name>
+    <details>Compact bamboo whisk of a smaller size than regular whisks. Perfect for use with regular cups and glasses.</details>
+    <price>13.0</price>
+    <soldOut>Yes</soldOut>
+  </product>
+  <product>
+    <name>Matcha Sifting Can</name>
+    <details>This beautiful matcha furui is perfect for ensuring your matcha is perfectly lump free before whisking leading to a smoother richer tea.
+Essential for the higher class tea preparation</details>
+    <price>16.0</price>
+    <soldOut>Yes</soldOut>
+  </product>
 </products>
