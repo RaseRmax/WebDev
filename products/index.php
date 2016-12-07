@@ -84,7 +84,7 @@
                         <p class="intro-text">View and buy all our awesome products here
                             </p>
                      
-                        <a href="#contact" class="btn btn-circle page-scroll">
+                        <a href="#products" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -122,48 +122,43 @@ steeped green tea</p>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Products</h2>
-              <table>
-                
-        
+              <div id="products">
+             
                     <?php
-    
-    
-    //echo 100+100;
-    
-    //$xmlDoc = new DOMDocument();
-    //$xmlDoc->load("products.xml");
-    //$x = $xmlDoc->documentElement;
               $xml=simplexml_load_file("products.xml");
-   //print_r($xml);
-     foreach ($xml->product as $p){
+   
+              foreach ($xml->product as $p){
    ?>
-              
-         <tr>
-           <td>
-            <?php
-                print($p->name);
-                  ?>
-           </td>
-           <td>
-            <?php
-                print($p->price);
-                  ?>
-           </td>
-           <td>
+         <div class="product">     
+         <div class="prodWrap">
+             <span class="prodName">
+              <?php
+                  print($p->name);
+                    ?>
+             </span>
+             <span class="prodPrice">
+              <?php
+                  print($p->price);
+                    ?>
+               EUR
+             </span>
+           </div>
+           <div class="prodDetail">
             <?php
                 print($p->details);
                   ?>
-           </td>
-           <td>
+           </div>
+           <!--<div class="cartBtn">
             <button type="button" class="btn btn-success">Add to Cart</button>
-           </td>
-          </tr>
+           </div>-->
+                </div>
+          
               
               <?php
    }
         
     ?>
-              </table>
+              </div>
             </div>
         </div>
     </section>

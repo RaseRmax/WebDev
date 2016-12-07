@@ -1,6 +1,29 @@
-td{
-  text-align: left;
-  padding:10px;
-  vertical-align:top;
-  border:1px solid #fff
+.prodName{
+  font-weight:bold;
+  color:#fff;
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+
+.prodPrice{
+  font-size:30px;
+  font-weight:light;
+  color:#999;
+  margin-left:20px;
+  font-style:italic;
+  
+}
+
+.prodDetail{
+  margin-top:20px;
+  color:#f0f0f0;
+}
+
+.product:not(:last-child){
+  border-bottom:1px dashed rgba(255,255,255,.1);
+}
+
+.product{
+  padding:20px 0px;
 }
