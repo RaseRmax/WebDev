@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'abcdefghijklmnopqrstuvwxyzsecret',
+	'key' => 'YourSecretKey!!!',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -121,7 +121,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-		'Nathanmac\Utilities\Parser\ParserServiceProvider'
+	'Nathanmac\Utilities\Parser\ParserServiceProvider'
 
 	),
 
@@ -189,7 +189,7 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
-		'Parser' => 'Nathanmac\Utilities\Parser\Facades\Parser',
+	'Parser' => 'Nathanmac\Utilities\Parser\Facades\Parser',
 
 	),
 

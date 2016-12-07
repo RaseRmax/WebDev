@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--All Product details, name, price and image details have been taken from http://koyumatcha.com/wp/products-page/ -->
+<products>
+  <product>
+    <name>Koyu Organic Japanese Matcha</name>
+    <details>This grade of matcha green tea is an excellent choice for those suffering from fatigue, low energy levels, inflammatory conditions and digestive sluggishness. If you have more bad health habits than good or you have been left run down from an illness, this matcha tea will be most effective for keeping you going for longer. 
+This organic matcha is also excellent for cravings and weight loss especially when consumed twice a day.</details>
+    <price>17.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Organic Ceremonial Matcha</name>
+    <details>This grade of matcha green tea has all the previously mentioned benefits of Japanese matcha. This matcha also has 50% more theanine than our Japanese matcha grade so it is excellent for calm, focus and mood uplift. Also smoother tasting.
+We recommend this grade of Koyu matcha tea to those with a good diet and lifestyle. Such people find this much more boosting than our Japanese matcha tea grade. </details>
+    <price>22.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Organic Premium Matcha</name>
+    <details>This grade of matcha green tea is our smoothest and mildest tea. This matcha is known as the mellow yellow due to its extremely calming effects. Exceptionally mood boosting, it is excellent for those suffering from stress, anxiety, insomnia or depression. 
+This matcha tea has all the previously mentioned benefits of matcha tea.</details>
+    <price>27.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Organic Ingredient Matcha</name>
+    <details>Organic matcha ingredient for use in cooking and matcha based beverages. Though too astringent and unrefined for consumption as a matcha tea, this matcha ingredient holds flavour well when combined with other ingredients and is suitable for matcha smoothies, matcha lattes and high class confectionery. This Koyu matcha tea ingredient is excellent for detoxing. We recommend this as a supplement to your regular tinned teas. Also excellent for cosmetic use.
+40g</details>
+    <price>11.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Matcha Latte Mix</name>
+    <details>For those who have become hooked on their matcha lattes in their local café, this is our most delicious and easy matcha option. Mix with hot water and hot or cold milk for instant matcha lattes. The taste is sweet, mild and delicious No whisks or foamers needed for preparation. Also suitable for smoothies. 150g Approx 30 servings</details>
+    <price>9.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Japanese Matcha Bowl Set</name>
+    <details>A perfect gift for yourself or someone who loves matcha. All you need to create your own ceremony - bowl, whisk, scoop, our Koyu Japanese matcha tea and a preparation guide.</details>
+    <price>46.0</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Japanese Matcha Gift Set</name>
+    <details>The perfect gift choice for when you wish to start your matcha journey. The set includes a whisk and scoop as well as a preparation guide on how to whisk matcha tea. 
+Of course you also get our energising Japanese matcha tea blend.</details>
+    <price>34.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Japanese Matcha Bowl Set</name>
+    <details>A perfect gift for yourself or someone who loves matcha. All you need to create your own ceremony - bowl, whisk, scoop, our Koyu Japanese matcha tea and a preparation guide.</details>
+    <price>46.0</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Japanese Matcha Bowl Set</name>
+    <details>A perfect gift for yourself or someone who loves matcha. All you need to create your own ceremony - bowl, whisk, scoop, our Koyu Japanese matcha tea and a preparation guide.</details>
+    <price>34.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Ceremonial Matcha Bowl Set</name>
+    <details>A perfect gift for yourself or someone who loves matcha. All you need to create your own ceremony - bowl, whisk, scoop, our wonderful Koyu Ceremonial matcha tea and preparation guide.</details>
+    <price>51.0</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Ceremonial Matcha Gift Set</name>
+    <details>The perfect gift choice for when you wish to start your matcha journey. The set includes a whisk and scoop as well as a preparation guide on how to whisk matcha tea. Also included is our lovely Koyu Ceremonial Matcha Tea</details>
+    <price>39.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Premium Matcha Bowl Set</name>
+    <details>The perfect gift for yourself or someone who loves matcha. All you need to create your own ceremony - bowl, whisk, scoop, plus a preparation guide and a tin of Koyu Premium Matcha tea.</details>
+    <price>56.0</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Koyu Premium Matcha Gift Set</name>
+    <details>The perfect gift choice for when you wish to start your matcha journey. The set includes a whisk and scoop as well as a preparation guide on how to whisk matcha tea. Also includes oue wonderfully mild Koyu Premium Matcha tea.</details>
+    <price>44.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Chasen Naoshi</name>
+    <details>Ceramic Whisk holder. Used to maintain shape of bamboo whisk when not in use.</details>
+    <price>6.0</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Matcha Latte+Japanese Matcha</name>
+    <details>Save €3 on our tinned teas by buying in a bundle with our matcha latte.</details>
+    <price>24.90</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Matcha Latte+Ceremonial Matcha</name>
+    <details>Save €3 on our tinned teas by buying in a bundle with our matcha latte.</details>
+    <price>29.95</price>
+      <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Matcha Latte+Premium Matcha</name>
+    <details>Save €3 on our tinned teas by buying in a bundle with our matcha latte.</details>
+    <price>34.95</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>High Quality Bamboo Scoop</name>
+    <details>Jo Chashaku. Beautiful Bamboo scoop perfect for tea ceremony or as a wonderful implement for matcha preparation. Use between two to three scoops of matcha per serving of usucha.
+2 scoops of matcha = approx 1g</details>
+    <price>5.0</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Electric Foamer</name>
+    <details>Battery-operated hand-held whisk for frothing milk and frothing matcha. Perfect for when you need matcha in a hurry, or in a tall glass or cup. See our beverages section for how to use when making lattes.</details>
+    <price>5.0</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Bamboo Whisk 80 tines</name>
+    <details>Handcrafted chasen for whisking matcha tea. The wonderful craftsmanship is a joy to behold as well as use. If you like a foamy cup of matcha, this implement is perfectly designed for the purpose.</details>
+    <price>13.0</price>
+    <soldOut>No</soldOut>
+  </product>
+  <product>
+    <name>Whisk 100 tines</name>
+    <details>Kyo Hyakupontate. 100 tine bamboo whisk. Beautifully crafted utensil for whisking matcha in water.</details>
+    <price>25.0</price>
+    <soldOut>Yes</soldOut>
+  </product>  
+  <product>
+    <name>Luxury Whisk</name>
+    <details>Jo Kazumiho bamboo whisk for tea ceremony style tea preparation.
+This is a top class whisk for connoissseurs of matcha and Tea Ceremony.
+An outstanding piece of craftsmanship, this is a wonderful present for any matcha enthusiast.</details>
+    <price>30.0</price>
+    <soldOut>Yes</soldOut>
+  </product>
+  <product>
+    <name>Mini whisk 80 tines</name>
+    <details>Compact bamboo whisk of a smaller size than regular whisks. Perfect for use with regular cups and glasses.</details>
+    <price>13.0</price>
+    <soldOut>Yes</soldOut>
+  </product>
+  <product>
+    <name>Matcha Sifting Can</name>
+    <details>This beautiful matcha furui is perfect for ensuring your matcha is perfectly lump free before whisking leading to a smoother richer tea.
+Essential for the higher class tea preparation</details>
+    <price>16.0</price>
+    <soldOut>Yes</soldOut>
+  </product>
+</products>

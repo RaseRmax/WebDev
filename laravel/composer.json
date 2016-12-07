@@ -5,11 +5,11 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+		"Nathanmac/Parser": "4.*"
 	},
 	"autoload": {
 		"classmap": [
-			"app/commands",
 			"app/controllers",
 			"app/models",
 			"app/database/migrations",
@@ -34,7 +34,4 @@
 		"preferred-install": "dist"
 	},
 	"minimum-stability": "stable"
-},
-"require": {
-    "Nathanmac/Parser": "4.*"
 }
