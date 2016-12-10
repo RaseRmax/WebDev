@@ -52,7 +52,7 @@
                         <a href="../index.html#download">What is Matcha</a>
                     </li>
                     <li>
-                        <a href="../js/MatchaPageDan/MatchaPageDan/DanStrap">Matcha</a>
+                        <a href="../js/MatchaPageDan/MatchaPageDan/DanStrap">Matcha Benefits</a>
                     </li>
                   <li>
                         <a href="../AndyTea/TaltysTea/Matcha Health.html">Matcha Health</a>
