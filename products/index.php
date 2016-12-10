@@ -9,21 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Koyu Matcha</title>
+    <title>Shop Homepage</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="../css/grayscale.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
-  
-  
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,38 +27,38 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="../">
-                    <i class="fa fa-play-circle"></i> <span class="light">Koyu</span> Matcha
-                </a>
+                <a class="navbar-brand" href="../">Koyu Matcha</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                    <li>
+                        <a href="#">Shop</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/products">Shop</a>
+                        <a href="../index.html#download">What is Matcha</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../index.html#download">What is matcha?</a>
+                        <a href="../js/MatchaPageDan/MatchaPageDan/DanStrap">Matcha</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Matcha Health</a>
+                  <li>
+                        <a href="../AndyTea/TaltysTea/Matcha Health.html">Matcha Health</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Preparation</a>
+                  <li>
+                        <a href="../ConalsPrep/prep.html">Preparation</a>
                     </li>
                 </ul>
             </div>
@@ -74,133 +67,123 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Shop</h1>
-                        <p class="intro-text">View and buy all our awesome products here
-                            </p>
-                     
-                        <a href="#products" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">Koyu</p>
+                <!--<div class="list-group">
+                    <a href="#" class="list-group-item">Category 1</a>
+                    <a href="#" class="list-group-item">Category 2</a>
+                    <a href="#" class="list-group-item">Category 3</a>
+                </div>-->
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="images/one.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="images/two.jpg" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <!-- About Section -->
-     <!--<section id="about" class="container content-section text-center">
-        <!--<div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Drink matcha, the powdered green 
-tea that gives you an energy boost 
-of 3-6 hours and 137 times the antioxidants of your regular 
-steeped green tea</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section 
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
                 </div>
-            </div>
-        </div>
-    </section>-->
-    <section id="products" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Products</h2>
-              <div id="products">
-             
+                <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <h2>Products</h2>
+                    <div id="products">
+
+                          <?php
+                    $xml=simplexml_load_file("products.xml");
+
+                    foreach ($xml->product as $p){
+         ?>
+               <div class="product">     
+               <div class="prodWrap">
+                   <span class="prodName">
                     <?php
-              $xml=simplexml_load_file("products.xml");
-   
-              foreach ($xml->product as $p){
-   ?>
-         <div class="product">     
-         <div class="prodWrap">
-             <span class="prodName">
-              <?php
-                  print($p->name);
-                    ?>
-             </span>
-             <span class="prodPrice">
-              <?php
-                  print($p->price);
-                    ?>
-               EUR
-             </span>
-           </div>
-           <div class="prodDetail">
-            <?php
-                print($p->details);
-                  ?>
-           </div>
-           <!--<div class="cartBtn">
-            <button type="button" class="btn btn-success">Add to Cart</button>
-           </div>-->
-                </div>
-          
-              
-              <?php
-   }
-        
-    ?>
-              </div>
-            </div>
-        </div>
-    </section>
-  
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Koyu Matcha</h2>
-                <p>Feel free to email us to provide some feedback on our products, give us suggestions, or to just say hello!</p>
-                <p><a href="mailto:feedback@koyumatcha.com">feedback@koyumatcha.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/KoyuMatcha" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+                        print($p->name);
+                          ?>
+                   </span>
+                   <span class="prodPrice">
+                      <br />
+                    <?php
+                     
+                        print($p->price);
+                          ?>
+                     EUR
+                   </span>
+                 </div>
+                 <div class="prodDetail">
+                  <?php
+                      print($p->details);
+                        ?>
+                 </div>
+                 <!--<div class="cartBtn">
+                  <button type="button" class="btn btn-success">Add to Cart</button>
+                 </div>-->
+                      </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Koyu Matcha 2016 by Conal, Andrew, Daniel and Sana</p>
+
+                    <?php
+         }
+
+          ?>
+                    </div>
+                  </div>
+              </div>
+                
+
+            </div>
+
         </div>
-    </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Koyu Matcha 2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="../js/grayscale.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 
