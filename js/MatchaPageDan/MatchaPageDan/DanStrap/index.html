@@ -61,7 +61,10 @@
                         <a href="http://webdev-sanadiwan.codeanyapp.com/products/">Products</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="http://webdev-sanadiwan.codeanyapp.com/ConalsPrep/prep.html">Preparation</a>
+                    </li>
+                   <li>
+                        <a href="http://webdev-sanadiwan.codeanyapp.com/AndyTea/TaltysTea/Matcha%20Health.html">Matcha Health</a>
                     </li>
                 </ul>
             </div>
@@ -97,6 +100,7 @@
                     Drink matcha to dance Cha-Cha
                 </div>
             </div>
+          
             <!-- /.col-lg-12 -->
         </div>
         <!-- /.row -->
@@ -208,7 +212,100 @@ Fortunately, unlike a lot of other teas which require sugar, milk, or lemon to m
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+<div class="container">
+<h2>Feedback Display</h2> 
+<!
+--
+Good feedback only 
+--
+>
+<div clas
+s="panel panel
+-
+success"> 
+<div class="panel
+-
+heading">Good Feedback</div>
+<div class="panel
+-
+body">
+<ol>
+<xsl:for
+-
+each select="/feedbacks/feedback/rating[text()>3]">
+<li>
+<xsl:value
+-
+of 
+select="../text"/>
+</li>
+</xsl:for
+-
+each>
+</ol>
+</div>
+</div>
+<!
+--
+OK feedback only 
+--
+>
+<div class="panel panel
+-
+warning"> 
+<div class="panel
+-
+heading">OK Feedback</div>
+<div class="p
+anel
+-
+body">
+<ol>
+<xsl:for
+-
+each select="/feedbacks/feedback/rating[text()=3]">
+<li>
+<xsl:value
+-
+of select="../text"/>
+</li>
+</xsl:for
+-
+each>
+</ol>
+</div>
+</div>
+<!
+--
+Bad feedback only 
+--
+>
+<div class="panel panel
+-
+danger"> 
+<div class="panel
+-
+heading">Bad Feedback</div>
+<div class="panel
+-
+body">
+<ol>
+<xsl:for
+-
+each select="/feedbacks/feedback/rating[text() &lt; 
+3]">
+<li>
+<xsl:value
+-
+of select="../text"/>
+</li>
+</xsl:for
+-
+each>
+</ol>
+</div>
+</div>
+</div>
 </body>
 
 </html>
